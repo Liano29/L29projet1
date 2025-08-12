@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+   body {
+  background-image: url("image1.jpg"); 
+  background-size: cover;
+  background-position: center; 
+  height: 100vh;
+  width: 100%;
+    color: white;
+    font-size: 1rem;
+
+    font-family:  sans-serif;
+    margin: 0;
+    padding: 1rem;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 768px) {
+    body {
+        display: flex;
+        gap: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        font-size: 1.2rem;
+    }
+}
+.wrapper {
+background: linear-gradient(90deg, rgba(77, 0, 3, 1.000) 0.000%, rgba(98, 0, 0, 1.000) 16.667%, rgba(93, 0, 0, 1.000) 33.333%, rgba(62, 0, 0, 1.000) 50.000%, rgba(21, 11, 14, 1.000) 66.667%, rgba(0, 44, 54, 1.000) 83.333%, rgba(0, 75, 89, 1.000) 100.000%);
+    border-radius: 15px;
+    padding: 20px;
+    overflow: hidden;
+    border: 3px inset black;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    height: 500px;
+    position: relative;
+}
+
+header,main,footer {
+    padding: 20px;
+    color: white;
+}
+
+.btn {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+  padding:  2px;
+  background-color: #044354de;
+  color: rgb(228, 42, 42);
+  text-decoration: none;
+  border-radius: 5px ;
+  text-align: center;
+  cursor: pointer;   
+  font-size: 1.2rem;
+
+
+}
+.np {
+    padding-bottom: 0%;
+    width: 100%; 
+    
+}
+.competences {
+   padding-top: 10px;
+   position: relative;
+    bottom: 30px;
+}
+
+.competences-listes {
+   position: relative;
+   bottom: 25px;
+}
+.nomprenoms {
+    height: 50%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    position: relative;
+    bottom: 10px;
+}
+
+.bio {
+    height: 50%;
+    padding-top: 10px;
+    position: relative;
+    bottom: 40px;
+}
+.contact {
+   position: relative;
+   bottom: 56px;
+   right: 10px;
+}
+
+.photo {
+    background: url("image2.webp");
+    position: relative;
+    top: 10px;
+    left: 3px;
+    right: 1px;
+    height: 450px;
+    border-radius: 15%;
+    border: 3px solid white;
+   display :flex ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+
+
+
